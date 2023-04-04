@@ -1,0 +1,356 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Master.css">
+    <link rel="icon"
+        href="data:image/png;base64,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"
+        type="image/icon type">
+    <title>Home</title>
+    <script src="GLOB.js" type="text/javascript" defer></script>
+    <script src="firebase.js"></script>
+</head>
+
+<body>
+    <nav id="top-nav" style="z-index: 100;">
+        <ul class="menu">
+            <li class="logo"><img src="https://i.ibb.co/rQdy8CX/337247920-1403401910424148-1184434374642901315-n.jpg"
+                    alt="logo">
+            </li>
+            <ul class="sub">
+                <form class="search-bar" action="/search">
+                    <button type="submit" name><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg></button>
+                    <input id="search-content" type="text" placeholder="What do you want to learn to day?" name="search"
+                        required>
+
+                    </div>
+                </form>
+                <li class="item"><a class="nav-link" href="index.html" id="this_page">Home</a></li>
+                <li class="item"><a class="nav-link" href="AboutUs.html">About</a></li>
+                <li class="item"><a class="nav-link" href="contact_index.html">Contact</a></li>
+                <li class="item"><a class="nav-link" href="Donate.html">Donate</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </ul>
+    </nav>
+    <hr>
+    <div id="container-glob">
+        <section class="main">
+
+            <div id="last-container">
+                <div class="slider">
+                    <!-- radio buttons -->
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+
+                        <!-- slide img -->
+                        <div class="slide first">
+                            <img src="https://wallpapercave.com/wp/wp4422782.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="https://cdn.wallpapersafari.com/74/87/rqI0w3.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="https://wallpapercave.com/wp/wp4193337.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="https://wallpapercave.com/wp/wp2506817.jpg" alt="">
+                        </div>
+                        <!-- automatic nav -->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                    </div>
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    var counter = 1;
+                    setInterval(function () {
+                        document.getElementById('radio' + counter).checked = true;
+                        counter++;
+                        if (counter > 4) {
+                            counter = 1;
+                        }
+                    }, 5000);
+                </script>
+            </div>
+            <div class="container-text1">
+                <div class="context">
+                    <div class="title">
+                        <p>A better planet with every access
+                        </p>
+                        <br><br>
+                        <div class="t_text">
+                            <p>
+                                Lorem ipsum dolor as sit amet,consectetur adipiscing elit, sed do eiusmod
+                                tempor
+                                incididunt e et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+    </div>
+
+
+
+    </section>
+    <div id="partner" style="margin-top:30px">
+        <img style="margin: auto; display: block; width:20vw;min-width: 200px; height: 9vw;min-height:90px"
+            src="https://i.ibb.co/HB812H3/337151685-562534315670787-794904124395176553-n.jpg" alt="">
+    </div>
+    <section class="Our-Mission">
+        <div style="width:100%">
+            <span style="
+            text-align: center;
+            margin:auto;
+            margin-top: 50px;
+            display:table;
+            font-family: 'Open Sans', sans-serif;            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 70px;
+            color:#2E2E2E;
+             ">Our Mission to Save <br> the Planet</span>
+        </div>
+
+        <div class="services">
+            <div id="background_icon">
+                <span class=" material-symbols-outlined">
+                    brightness_5
+                </span>
+            </div>
+            <span class="name_services">
+                Solar System
+            </span>
+        </div>
+        <div class="services">
+            <div id="background_icon">
+                <span class=" material-symbols-outlined">
+                    recycling
+                </span>
+            </div>
+            <span class="name_services">
+                Recycling
+            </span>
+
+
+        </div>
+        <div class="services">
+            <div id="background_icon">
+                <span class=" material-symbols-outlined">
+                    nature
+                </span>
+            </div>
+            <span class="name_services">
+                Plant trees
+            </span>
+
+
+        </div>
+        <div class="services">
+            <div id="background_icon">
+                <span class=" material-symbols-outlined">
+                    bolt
+                </span>
+            </div>
+            <span class="name_services">
+                Clean Energy
+            </span>
+
+
+        </div>
+        <div class="services">
+            <div id="background_icon">
+                <span class=" material-symbols-outlined">
+                    compost
+                </span>
+            </div>
+            <span class="name_services">
+                Eco System
+            </span>
+
+
+        </div>
+        <div class="services">
+            <div id="background_icon">
+                <span class=" material-symbols-outlined">
+                    humidity_high
+                </span>
+            </div>
+            <span class="name_services">
+                Water Refine
+            </span>
+
+
+        </div>
+    </section>
+
+    <div class="CAU">
+        <div class="AboutUs">
+            <h2 class="H2">
+                Your Guide to Living a More Sustainable Life
+            </h2>
+            <ul>
+                <li>
+                    - Pragmatic, evidence based guides to living a more sustainable life
+                </li>
+                <li>
+                    - How to utilise renewable energy and the latest tech to create a better future for our planet
+                </li>
+                <li>
+                    - Unbiased advise with no corporate overloads or greenwashing
+                </li>
+            </ul>
+
+            <div class="wp-block-button">
+                <a class="wp-block-button__link">
+                    ABOUT US
+                </a>
+            </div>
+
+            <p>
+            </p>
+        </div>
+    </div>
+    </div>
+
+    <nav id="foot">
+        <div id="foot-note">
+            <table>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr class="foot-note-tr">
+                    <td>
+                        <p id="firstline"><b><u>Contact Us</u> to ask a question, provide feedback, or
+                                report a problem.</b></p>
+                    </td>
+                    <td>
+                        <p id="secline">Last updated on February 17, 2023</p>
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <div id="main-footer">
+                <div class="main-footer-col" style="margin-right:0px;">
+                    <div id="icon-text">
+                        <p id="only" style="color:#4D7E3E;font-size: 25px">G-organization</p>
+                        <img src="https://i.ibb.co/rQdy8CX/337247920-1403401910424148-1184434374642901315-n.jpg" alt="">
+
+                    </div>
+                </div>
+                <div class="main-footer-col">
+                    <div id="icon-container">
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+                <div class="main-footer-col">
+                    <div class="container-text">
+                        <p id="only" style="color:#4D7E3E;font-size: 25px;">About us</p>
+                        <p class="main-footer-col-text">Contact us</p>
+                        <p class="main-footer-col-text">Offices</p>
+                        <p class="main-footer-col-text">Careers</p>
+                    </div>
+                </div>
+                <div class="main-footer-col">
+                    <div class="container-text">
+                        <p id="only" style="color:#4D7E3E;font-size: 25px;">resources</p>
+                        <p class="main-footer-col-text">Blogs</p>
+                        <p class="main-footer-col-text">report and publication</p>
+                        <p class="main-footer-col-text">For the media</p>
+                    </div>
+                </div>
+
+            </div>
+            <div id="div-hr" style="border: 1px #E9EDC9 solid; width: 90%; margin: auto;"></div>
+            <table id="last-foot">
+                <tr>
+                    <th>
+
+                    </th>
+                    <th>
+
+                    </th>
+                </tr>
+                <tr>
+                    <td id="td-c">
+                        <div id="icon-container">
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-youtube"></a>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="width:90%;">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                <a href="https://www.figma.com/file/r3cuzvH7qhJd17AGUzvyoL/Untitled?node-id=107-15&t=6W4JgUHI9wpsVVRq-0"
+                                    style="font-weight: 100;" font-size=" "><u>Copyright
+                                        © 2023</u></a> Environmental Defense
+                                Fund. All Rights Reserved.
+                                <u>Privacy statement
+                                </u>- <u> of ethics</u> <br>
+                                <br><br>
+
+                                G organization is a nonprofit, tax-exempt charitable organization under Section
+                                000(c)(3) of
+                                the
+                                Internal Revenue Code. Donations are tax-deductible as allowed by law. Tax
+                                identification
+                                number
+                                11611111
+                                <br>
+                                <br>
+                                <br>
+
+                                GO operates with the highest standards of ethics and open, honest communication. Read
+                                our
+                                whistle blower policy or report a concern through our confidential, third-party
+                                compliance
+                                site.
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+    </nav>
+
+</body>
+
+</html>
